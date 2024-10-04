@@ -1,0 +1,23 @@
+pipeline
+{
+agentanystages
+{
+stage('Check Validate'){steps{
+echo'ValidatingtheProgram'
+}
+}
+stage('Compilation'){steps{
+echo'CompilingtheProgram'
+}
+}
+stage('Installation'){steps{
+echo'InstallingtheProgram'
+}
+}
+stage('Deploy'){steps{
+echo'DeployingtheProgram'
+}
+}
+}
+
+}
